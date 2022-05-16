@@ -4,6 +4,7 @@
   "description": "An example for OAuth 1.0a user flow",
   "main": "dist/index.js",
   "scripts": {
+    "dev": "tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/index.js\"",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/tsc-watch --noClear -p ./tsconfig.json --onSuccess \"node ./dist/index.js\""
   },
